@@ -1,15 +1,26 @@
 {
     "version": "1",
     "information": {
-        "name": "SMS CWC",
+        "name": "sms_citywireless",
         "displayName": "SMS POR CITY WIRELESS CARRIER",
         "description": "Notifica a tus clientes vía SMS.",
-        "url": "https://github.com/Ubiquiti-App/UCRM-plugins",
+        "url": "https://github.com/mojica2000/sms-cwc.git",
         "version": "1.0.0",
         "ucrmVersionCompliancy": {
             "min": "2.14.0",
             "max": null
         },
-        "author": "Your Name"
-    }
+        "unmsVersionCompliancy": {
+           "min": "1.0.0-alpha.1",
+           "max": null
+       },
+        "author": "Jose Angel Mojica Torres - amojica@citywireless.mx"
+    },
+    "menu": [
+        {
+            "label": "SMS",
+            "type": "admin",
+            "target": "iframe"
+        }
+    ]
 }
